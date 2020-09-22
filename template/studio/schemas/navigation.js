@@ -13,8 +13,11 @@ export default {
       type: 'slug',
       description: 'Unique identifier to use in the code implementation'
     },
-    /**
-     * @TODO: Add recursive reference arrays here
-     */
+    {
+      type: 'array',
+      name: 'sections',
+      title: 'Sections',
+      of: [{ type: 'navSection' }],
+    }
   ]
 }

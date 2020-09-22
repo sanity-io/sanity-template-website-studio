@@ -14,6 +14,8 @@ import comment from './comment'
 
 import meta from './objects/meta'
 import content from './objects/content'
+import navSection from './objects/navSection'
+import navLink from './objects/navLink'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -28,9 +30,11 @@ export default createSchema({
     comment,
     page,
     route,
-    /* author,
-    navigation, */
+    /* author, */
+    navigation,
     meta,
-    content
+    content,
+    navSection,
+    navLink
   ])
 })

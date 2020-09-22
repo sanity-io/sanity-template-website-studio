@@ -14,6 +14,7 @@ export default {
         {
           name: 'alt',
           type: 'string',
+          title: 'Alt',
           validation: Rule => Rule.required().warning(`Remember alternative text for people who can't see your image`),
           options: {
             isHighlighted: true
@@ -22,6 +23,7 @@ export default {
         {
           name: 'caption',
           type: 'string',
+          title: 'Caption',
           options: {
             isHighlighted: true
           }
