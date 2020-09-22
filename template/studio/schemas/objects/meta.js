@@ -9,6 +9,16 @@ export default {
       title: 'Hide post',
     },
     {
+      name: 'publishedAt',
+      type: 'datetime',
+      title: 'Publish at…'
+    },
+    {
+      name: 'unpublishedAt',
+      type: 'datetime',
+      title: 'Unpublish at…'
+    },
+    {
       name: 'categories',
       type: 'array',
       title: 'Categories',
