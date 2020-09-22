@@ -1,12 +1,13 @@
 {
   "root": true,
   "project": {
-    "name": "Temp title"
+    "name": "<#< sanity.projectTitle >#>"
   },
   "api": {
-    "projectId": "jvqtwofl",
-    "dataset": "website"
+    "projectId": "<#< sanity.projectId >#>",
+    "dataset": "<#< sanity.dataset >#>"
   },
+  
   "plugins": [
     "@sanity/base",
     "@sanity/components",
