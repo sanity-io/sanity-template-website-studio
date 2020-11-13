@@ -1,6 +1,4 @@
-# <#< sanity.projectTitle >#>
-
-_A studio for managing a website_
+# A studio for managing a website
 
 **Features:**
 
