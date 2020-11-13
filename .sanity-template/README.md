@@ -1,6 +1,4 @@
-# <#< sanity.projectTitle >#>
-
-_A studio for managing a website_
+# A studio for managing a website
 
 **Features:**
 
@@ -14,10 +12,11 @@ Deployed from [sanity.io/create](https://www.sanity.io/create/?template=sanity-i
 ## Quick start
 
 1. Clone this repository
-2. `sanity install` in the studio folder on local (and `npm i -g @sanity/cli` if you don't have the CLI)
-3. `sanity start` to start the studio
+2. `cd studio`
+3. `sanity install` in the studio folder on local (and `npm i -g @sanity/cli` if you don't have the CLI)
+4. `sanity start` to start the studio
    - Your studio should be running on [http://localhost:3333](http://localhost:3333)
-4. `sanity build` to build to production locally
+5. `sanity build` to build to production locally
 
 ## Deploy changes
 
